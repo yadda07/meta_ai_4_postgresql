@@ -51,11 +51,11 @@ class ExecuteSqlTool(Tool):
 class AssistantBD:
     def __init__(self, deepseek_api_key: str = None):
         self.db_params = {
-            "host": "10.241.228.107",
+            "host": "11.241.218.107",
             "port": "5432",
-            "dbname": "AUVERGNE",
-            "user": "yadda",
-            "password": "chouchouhoodjood"
+            "dbname": "name_of_database",
+            "user": "username",
+            "password": "password"
         }
         
         try:
